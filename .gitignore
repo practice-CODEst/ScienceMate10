@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+
+# Python
+venv/
+backend/venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Databases and generated RAG data
+data/
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+**/chroma/
+
+# Large textbook PDFs
+textbooks/*.pdf

@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #172554;
+  background: #f4f7fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f4f7fc;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+button, textarea, select, input {
+  font: inherit;
+}
+
+button {
+  transition: background-color .2s ease, transform .2s ease;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+textarea {
+  resize: vertical;
+}
+
+body {
+  background: #eef2ff !important;
+}
+
+.sidebar {
+  background: #172554 !important;
+  color: white !important;
+}
+
+.panel {
+  background: white !important;
+  border: 1px solid #dbeafe !important;
+  border-radius: 16px !important;
+  padding: 24px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 5px 20px rgba(30, 64, 175, .08) !important;
+}
+
+.nav-link {
+  color: #dbeafe !important;
+}
+
+.nav-link.active {
+  background: #2563eb !important;
+  color: white !important;
+}
